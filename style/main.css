@@ -1,0 +1,104 @@
+/* import of fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  /* background-color: white; */
+}
+
+h2, li, a, button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 16;
+  color: #edf0f1;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+h3, p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 27;
+  color: black;
+}
+
+.upper {
+  /* background-color: #2f2fa2; */
+  background: rgb(49,74,204);
+  background: -moz-radial-gradient(circle, rgba(49,74,204,1) 0%, rgba(7,36,111,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(49,74,204,1) 0%, rgba(7,36,111,1) 100%);
+  background: radial-gradient(circle, rgba(49,74,204,1) 0%, rgba(7,36,111,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#314acc",endColorstr="#07246f",GradientType=1); 
+  width: 1920px;
+  height: 940px;
+}
+
+.upper__title {
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  margin-top: 330px;
+}
+
+header {
+  background-color: transparent;
+  /* background-color: #2f2fa2; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.logo {
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.logo:hover {
+  color: #f5c749;
+}
+
+.nav__links {
+  background-color: #2f2fa2;
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #f5c749;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container__inside {
+  margin: 45px;
+}
