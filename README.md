@@ -1,2 +1,2 @@
 # Ukrajinsjka-Latynka-site
-Sajt dlja Ukrajinsjkoji latynky.
+Sajt dla Ukrajinśkoji łatynky.
